@@ -57,6 +57,9 @@ header {
 body {
   background-color: #f5f5f5;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .contact-container {
@@ -67,6 +70,8 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   max-width: 1050px;
+  width:500px;
+  height:500px;
   margin: auto;
 }
 
