@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="./css/top.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<header>
+        <div class="logo_container">
+            <a href="#"><img class="logo_home" src="./images/logo.png" alt="Indivista Home"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="./index.html">Home</a>
+            <a href="./places.html">Places</a>
+             <a href="./top.html">Trending  <sup style=" color: #ff3f6c;
+    font-size: 9px;">Top 5</sup></a>
+            <a href="./About.html">About Us</a>
+            <a href=./Contact.html">Contact</a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for temples,resorts and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">Profile</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+        </div>
+</header>
+  <div class="ImageBody">
+   <div class="slider">
+    <div class="images">
+
+      <input type="radio" name="slide" id="img1" checked>
+      <input type="radio" name="slide" id="img2">
+      <input type="radio" name="slide" id="img3">
+      <input type="radio" name="slide" id="img4">
+      <img src="./images/tirupati.jpg" class="m1"  alt="img1">
+      <div class="title t1">Tirupati  Temple, Andhra Pradesh</div>
+      <img src="./images/Meenakshi Temple.jpg" alt="img2" class="m2">
+      <div class="title t2">Meenakshi Temple, Madurai</div>
+      <img src="./images/ooty.jpg" alt="img3" class="m3">
+      <div class="title t3">Ooty, TamilNadu</div>
+      <img src="./images/marina-beach.jpg" alt="img4" class="m4">
+      <div class="title t4">Marina Beach, Chennai</div>
+
+    </div>
+    <div class="dots">
+      <label for="img1"></label>
+      <label for="img2"></label>
+      <label for="img3"></label>
+      <label for="img4"></label>
+    </div>
+   </div>
+   </div>
+   <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>Temples</h3>
+            </div>
+
+            <div class="footer_column">
+                <h3>Historical places</h3>
+            </div>
+
+            <div class="footer_column">
+                <h3>Waterfalls</h3>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            © 2023 www.indivista.com. All rights reserved.
+        </div>
+</footer>
+</body>
+</html>
