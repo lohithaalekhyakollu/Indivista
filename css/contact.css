@@ -1,10 +1,69 @@
-* {
-  font-family: 'poppins', sans-serif;
+*{
+    margin: 0;
+    padding:0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+.logo_home{
+  width: 70px;
+  height: 60px;
+  position: relative;
+  left: 50px;
+}
+header {
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 5px solid #ffffff;
+}
+.nav_bar a:hover {
+    border-bottom: 4px solid #f54e77;
+}
+.search_bar {
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 body {
   background-color: #f5f5f5;
-  padding: 2rem;
 }
 
 .contact-container {
@@ -16,6 +75,8 @@ body {
   overflow: hidden;
   max-width: 1050px;
   margin: auto;
+  position: relative;
+  top: 30px;
 }
 
 .contact-image {
@@ -66,4 +127,30 @@ body {
 
 .contact-form button:hover {
   background-color: #6e60c4;
+}
+
+
+.footer_container {
+    padding: 40px 0px 30px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+}
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 20px;
+    position: relative;
+    top: 50px;
 }
