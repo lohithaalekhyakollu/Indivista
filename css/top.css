@@ -78,9 +78,13 @@ footer{
     text-align: end;
     padding: 20px;
 }
-.logo_home{
-  height: 40px;
-  margin-left: 4px;
+.logo_container{
+    margin-left:4%;
+}
+.logo_home {
+    height:60px;
+    width: auto;
+    max-width: 100%;
 }
 .ImageBody{
   height:100vh;
