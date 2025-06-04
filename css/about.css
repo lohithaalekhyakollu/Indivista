@@ -109,6 +109,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
+    z-index:1;
 }
 .nav_bar {
     display: flex;
