@@ -130,7 +130,8 @@ background:linear-gradient(to top,silver,white);
       font-size: 18px;
       transition: bottom 0.4s ease;
       z-index: 2;
-      border-radius: 0 20px 20px 0;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
     }
     .m1:hover ~ .t1 { bottom: 0; }
     .m2:hover ~ .t2 { bottom: 0; }
