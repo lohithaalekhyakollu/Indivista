@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.review-section {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.review-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #13274F;
+}
+
+.review-form h2,
+.reviews h2 {
+  color: #13274F;
+  margin-bottom: 15px;
+}
+
+.review-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.review-form button {
+  padding: 12px;
+  background: #13274F;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background: #0f1e3d;
+}
+.logo_container{
+    margin-left:45%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer_container {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    margin-top: 18px;
+}
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 20px;
+}
+.logo_home {
+    height:100px;
+}
+.reviews {
+  margin-top: 40px;
+}
+
+.review-card {
+  background: #f0f4f8;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.review-card h3 {
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.review-card span {
+  float: right;
+  color: navy;
+}
