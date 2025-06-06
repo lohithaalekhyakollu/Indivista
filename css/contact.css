@@ -82,7 +82,7 @@ body {
 }
 
 .contact-title {
-  background-color: #1d3b6f;
+  background-color:#13274F;
   color: white;
   padding: 20px;
   text-align: center;
@@ -174,7 +174,7 @@ form textarea {
 }
 
 button {
-  background: #1d3b6f;
+  background-color:#13274F;
   color: white;
   padding: 12px 20px;
   border: none;
