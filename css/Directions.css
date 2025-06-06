@@ -31,7 +31,8 @@ header {
     border-bottom: 4px solid #f54e77;
 }
 .Menu a:hover{
-border-bottom: 4px solid #f54e77;
+    margin-top:1px;
+border-bottom: 3px solid #f54e77;
 }
 .search_bar {
     height: 40px;
