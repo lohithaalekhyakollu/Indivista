@@ -54,6 +54,12 @@ header {
     flex-direction: column;
     align-items: center;
 }
+.banner_container {
+    margin: 20px 0;
+}
+.banner_image {
+    width: 100%;
+}
 .cat_heading {
     text-transform: uppercase;
     color: #3e4152;
