@@ -138,7 +138,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:25px;
+    gap:30px;
     margin:30px;
 }
 .card{
@@ -153,8 +153,8 @@ a:hover{
     z-index: 2;
 }
 .card img{
-    width:350px;
-    height: 150px;
+    width:460px;
+    height: 250px;
     object-fit:cover;
 }
 .card p{
