@@ -93,6 +93,7 @@ b{
 p{
  text-align: justify;
  line-height: 1.5;
+    letter-spacing: .2px;
 }
 .category{
     display: flex;
