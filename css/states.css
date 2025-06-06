@@ -25,6 +25,7 @@ b{
 p{
  text-align: justify;
  line-height: 1.5;
+    letter-spacing: .2px;
 }
 button{
     margin-left: 4%;
@@ -76,9 +77,6 @@ header {
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
 }
-p{
-    letter-spacing: .2px;
-}
 .loc{
     display: flex;
     flex-direction: row;
@@ -86,14 +84,11 @@ p{
     margin-left: 30px;
     justify-content: space-evenly;
 }
-.temple,.hp,.wf {
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-}
+
 .category{
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap:20px;
 }
