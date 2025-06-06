@@ -5,6 +5,7 @@
 }
 b{
     margin-bottom: 3px;
+    font-size: 1.25rem;
 }
 .cat_heading {
     text-transform: uppercase;
@@ -26,6 +27,7 @@ p{
  text-align: justify;
  line-height: 1.5;
     letter-spacing: .2px;
+    font-size: 1.12rem;
 }
 button{
     margin-left: 4%;
