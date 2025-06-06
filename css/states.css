@@ -50,8 +50,9 @@ hr{
     height:60px;
 }
 .place {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
 }
 header {
     display: flex;
