@@ -1,96 +1,111 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-}
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
 
-html, body {
-  height:100%;
-  overflow: hidden;
-}
+    html, body {
+      height: 100%;
+      overflow-x: hidden;
+    }
 
-.background-decor {
-  position: absolute;
-  top: 120px;
-  left: 0;
-  width: 100%;
-  height: 60%;
-  background: radial-gradient(circle at top right, #c6dbf5, #f3f9ff);
-  z-index: -1;
-}
+    .background-decor {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at top right, #c6dbf5, #f3f9ff);
+      z-index: -1;
+    }
 
-.container {
-  width: 100%;
-  height: 100vh;
-  padding: 0 40px;
-  display: flex;
-  flex-direction: column;
-  background: rgba(255,255,255,0.7);
-  backdrop-filter: blur(6px);
-}
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      background: rgba(255,255,255,0.7);
+      backdrop-filter: blur(6px);
+    }
 
-.logo {
-  color: #f2688f;
-  font-weight: bold;
-  font-size: 20px;
-}
+    .content {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+    }
 
-.content {
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-  padding-top: 20px;
-}
+    .left {
+      flex: 1;
+    }
 
-.left {
-  flex: 1;
-  padding-left: 40px;
-  animation: fadeInLeft 0.8s ease forwards;
-}
+    .left h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
 
+    .left p {
+      font-size: 16px;
+      margin-bottom: 25px;
+      color: #555;
+      max-width: 400px;
+    }
 
-.left h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #333;
-}
+    .left button {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-bottom: 20px;
+    }
 
-.left p {
-  font-size: 16px;
-  margin-bottom: 25px;
-  color: #555;
-  max-width: 400px;
-}
+    .left button:hover {
+      background: linear-gradient(to right, #5c0abb, #1f65f0);
+    }
 
-.left button {
-  background: linear-gradient(to right, #6a11cb, #2575fc);
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  font-size: 14px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
+    .features {
+      margin-top: 30px;
+    }
 
-.left button:hover {
-  background: linear-gradient(to right, #5c0abb, #1f65f0);
-}
-.right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: fadeInRight 0.8s ease forwards;
-}
-.main-image {
-  max-width: 100%;
-  max-height: 60%;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
+    .features h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .features ul {
+      list-style-type: none;
+    }
+
+    .features li {
+      margin-bottom: 8px;
+      color: #555;
+      font-weight: 500;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      object-fit: cover;
+    }
 .logo_container{
     margin-left:4%;
 }
@@ -177,3 +192,48 @@ body {
     position: relative;
     top: 50px;
 }
+    /* Responsive adjustments */
+    @media only screen and (max-width: 768px) {
+      .container {
+        padding: 40px 20px;
+      }
+
+      .content {
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .left {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .left p {
+        max-width: 100%;
+      }
+
+      .features {
+        text-align: left;
+        width: 100%;
+      }
+
+      .main-image {
+        max-height: 300px;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .left h1 {
+        font-size: 28px;
+      }
+
+      .left p {
+        font-size: 14px;
+      }
+
+      .left button {
+        padding: 10px 20px;
+      }
+    }
