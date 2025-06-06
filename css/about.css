@@ -5,8 +5,8 @@
 }
 
 html, body {
-  overflow: hidden;
   height:100%;
+  overflow: hidden;
 }
 
 .background-decor {
@@ -21,7 +21,7 @@ html, body {
 
 .container {
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   padding: 0 40px;
   display: flex;
   flex-direction: column;
