@@ -40,7 +40,7 @@
 .left {
   flex: 1;
   padding-right: 20px; 
-      margin-left:65px;
+      margin-left:72px;
 }
 
 .right {
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: flex-end;
   padding-right: 100px; 
-      margin-right:65px;
+      margin-right:72px;
 }
     .left h1 {
       font-size: 36px;
