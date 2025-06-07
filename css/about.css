@@ -19,11 +19,10 @@
       background: radial-gradient(circle at top right, #c6dbf5, #f3f9ff);
       z-index: -1;
     }
-
-    .container {
+.container {
   width: 100%;
   min-height: 100vh;
-  padding: 40px 40px 40px 120px;
+  padding: 40px 40px 40px 80px;
   display: flex;
   flex-direction: column;
   background: rgba(255,255,255,0.7);
@@ -47,7 +46,7 @@
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  padding-right: 100px; 
+  padding-right: 60px; 
 }
     .left h1 {
       font-size: 36px;
