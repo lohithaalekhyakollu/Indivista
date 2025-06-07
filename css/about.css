@@ -39,14 +39,14 @@
 .left {
   flex: 1;
   padding-right: 20px; 
-      margin-left:74px;
+      margin-left:130px;
 }
 
 .right {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-      margin-right:74px;
+      margin-right:130px;
 }
     .left h1 {
       font-size: 36px;
