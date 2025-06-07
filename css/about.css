@@ -23,7 +23,7 @@
     .container {
   width: 100%;
   min-height: 100vh;
-  padding: 40px 40px 40px 80px;
+  padding: 40px 40px 40px 120px;
   display: flex;
   flex-direction: column;
   background: rgba(255,255,255,0.7);
@@ -47,7 +47,7 @@
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  padding-right: 60px; 
+  padding-right: 100px; 
 }
     .left h1 {
       font-size: 36px;
