@@ -40,15 +40,14 @@
 .left {
   flex: 1;
   padding-right: 20px; 
-      margin-left:72px;
+      margin-left:74px;
 }
 
 .right {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
   padding-right: 100px; 
-      margin-right:72px;
+      margin-right:74px;
 }
     .left h1 {
       font-size: 36px;
