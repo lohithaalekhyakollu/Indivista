@@ -32,7 +32,6 @@
 .content {
   flex: 1;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 0;
 }
@@ -46,7 +45,7 @@
 .right {
   flex: 1;
   display: flex;
-  padding-right: 100px; 
+  justify-content: flex-end;
       margin-right:74px;
 }
     .left h1 {
