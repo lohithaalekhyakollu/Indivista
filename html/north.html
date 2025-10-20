@@ -1,85 +1,112 @@
-<html>
-  <head>
-    <title>Places</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <title>North India - Indivista</title>
     <link rel="stylesheet" href="../css/Directions.css">
+    <link rel="stylesheet" href="../css/Indivista.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-
-  <body>
+</head>
+<body>
     <header>
-      <div class="logo_container">
-        <a href="../index.html">
-          <img class="logo_home" src="../images/logo.png" alt="indivisit logo">
-        </a>
-      </div>
-
-      <nav class="nav_bar">
-        <a href="../index.html">Home</a>
-        <a href="./south.html">Places</a>
-        <a href="./top.html">
-          Trending <sup style="color: #ff3f6c; font-size: 9px;">Top 5</sup>
-        </a>
-        <a href="./About.html">About Us</a>
-        <a href="./Contact.html">Contact</a>
-      </nav>
-
-      <div class="search_bar">
-        <span class="material-symbols-outlined search_icon">search</span>
-        <input class="search_input" placeholder="Search for temples, resorts and more">
-      </div>
-
-      <div class="action_bar">
-        <div class="action_container">
-          <a href="./Login.html" style="text-decoration: none; color: #000;">
-            <span class="material-symbols-outlined action_icon">person</span>
-          </a>
-          <a href="./Login.html" style="text-decoration: none; color: #000;">
-            <span class="action_name">Profile</span>
-          </a>
+        <div class="logo_container">
+            <a href="../index.html"><img class="logo_home" src="../images/logo.png" alt="Indivista Logo"></a>
         </div>
 
-        <div class="action_container">
-          <span class="material-symbols-outlined action_icon">favorite</span>
-          <span class="action_name">Wishlist</span>
+        <nav class="nav_bar">
+            <a href="../index.html">Home</a>
+            <a href="north.html">Places</a>
+            <a href="top.html">Trending <sup style="color: #ff3f6c; font-size: 9px;">Top 5</sup></a>
+            <a href="About.html">About Us</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for temples, resorts and more">
+        </div>
+
+        <div class="action_bar">
+            <div class="action_container">
+                <a href="Login.html" style="text-decoration: none; color: #000;">
+                    <span class="material-symbols-outlined action_icon">person</span>
+                </a>
+                <a href="Login.html" style="text-decoration: none; color: #000;">
+                    <span class="action_name">Profile</span>
+                </a>
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+        </div>
+        <div class="menu_toggle">
+      <div class="parent">
+        <span class="material-symbols-outlined menu_icon" tabindex="0">menu</span>
+        <div class="mobile_nav">
+          <div class="mobile_link" data-link="index.html">Home</div>
+          <div class="mobile_link" data-link="html/places.html">Places</div>
+          <div class="mobile_link" data-link="html/top.html">Trending</div>
+          <div class="mobile_link" data-link="html/About.html">About Us</div>
+          <div class="mobile_link" data-link="html/Contact.html">Contact</div>
         </div>
       </div>
+    </div>
     </header>
 
     <p class="p1">INDIVISTA - Explore India's Wonders Digitally</p>
 
-    <div>
-      <nav class="Menu">
-        <a href="./south.html">South</a>
-        <a href="./east.html">East</a>
-        <a href="./west.html">West</a>
-        <a href="./north.html">North</a>
-      </nav>
-    </div>
+    <nav class="Menu">
+        <a href="south.html">South</a>
+        <a href="east.html">East</a>
+        <a href="west.html">West</a>
+        <a href="north.html">North</a>
+    </nav>
 
     <div class="gallery">
-      <div class="card"><a href="./jammu.html" title="Paradise on Earth"><img src="../images/N_JK.webp" alt="Jammu And Kashmir"></a><p>Jammu And Kashmir</p></div>
-      <div class="card"><a href="./punjab.html" title="Land of Five Rivers"><img src="../images/N_Pun.jpg" alt="Punjab"></a><p>Punjab</p></div>
-      <div class="card"><a href="./himachal.html" title="Abode of Snow"><img src="../images/N_HP.jpg" alt="Himachal Pradesh"></a><p>Himachal Pradesh</p></div>
-      <div class="card"><a href="#" title="Devbhumi (Land of Gods)"><img src="../images/N_UK.jpg" alt="Uttarakhand"></a><p>Uttarakhand</p></div>
-      <div class="card"><a href="#" title="Land of Milk and Glory"><img src="../images/N_Har.jpeg" alt="Haryana"></a><p>Haryana</p></div>
-      <div class="card"><a href="./madhya.html" title="The Heart of India"><img src="../images/N_MP.jpg" alt="Madhya Pradesh"></a><p>Madhya Pradesh</p></div>
-      <div class="card"><a href="./uttar.html" title="Heritage Hub of India"><img src="../images/N_UP.jpg" alt="Uttar Pradesh"></a><p>Uttar Pradesh</p></div>
+        <div class="card">
+            <a href="jammu.html" title="Paradise on Earth"><img src="../images/N_JK.webp" alt="Jammu And Kashmir"></a>
+            <p>Jammu And Kashmir</p>
+        </div>
+        <div class="card">
+            <a href="punjab.html" title="Land of Five Rivers"><img src="../images/N_Pun.jpg" alt="Punjab"></a>
+            <p>Punjab</p>
+        </div>
+        <div class="card">
+            <a href="himachal.html" title="Abode of Snow"><img src="../images/N_HP.jpg" alt="Himachal Pradesh"></a>
+            <p>Himachal Pradesh</p>
+        </div>
+        <div class="card">
+            <a href="uttarakhand.html" title="Devbhumi (Land of Gods)"><img src="../images/N_UK.jpg" alt="Uttarakhand"></a>
+            <p>Uttarakhand</p>
+        </div>
+        <div class="card">
+            <a href="haryana.html" title="Land of Milk and Glory"><img src="../images/N_Har.jpeg" alt="Haryana"></a>
+            <p>Haryana</p>
+        </div>
+        <div class="card">
+            <a href="madhya.html" title="The Heart of India"><img src="../images/N_MP.jpg" alt="Madhya Pradesh"></a>
+            <p>Madhya Pradesh</p>
+        </div>
+        <div class="card">
+            <a href="uttar.html" title="Heritage Hub of India"><img src="../images/N_UP.jpg" alt="Uttar Pradesh"></a>
+            <p>Uttar Pradesh</p>
+        </div>
     </div>
 
     <footer>
-      <div class="footer_container">
-        <div class="footer_column"><h3>Temples</h3></div>
-        <div class="footer_column"><h3>Historical places</h3></div>
-        <div class="footer_column"><h3>Waterfalls</h3></div>
-      </div>
-      <hr>
-      <div class="copyright">
-        © 2023 www.indivista.com. All rights reserved.
-      </div>
+        <div class="footer_container">
+            <div class="footer_column"><h3>Temples</h3></div>
+            <div class="footer_column"><h3>Historical places</h3></div>
+            <div class="footer_column"><h3>Waterfalls</h3></div>
+        </div>
+        <hr>
+        <div class="copyright">
+            © 2023 www.indivista.com. All rights reserved.
+        </div>
     </footer>
-  </body>
+</body>
 </html>
