@@ -147,22 +147,6 @@ footer{
   cursor: pointer;
   outline: none; 
 }
-.mobile_nav > a {
-  display: block;
-  padding: 10px 14px;
-  font-size: 15px;
-  color: #333;
-  white-space: nowrap;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background .12s ease, color .12s ease;
-}
-
-.mobile_nav > a:hover,
-.mobile_nav > a:focus {
-  background: #f5f5f5;
-}
-
 .mobile_nav {
   position: absolute;
   right: 0;
@@ -205,9 +189,10 @@ footer{
   outline: 2px solid rgba(51,153,255,0.18);
   border-radius: 4px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1220px) {
   .menu_toggle {
-    display: block;      
+    display: block;   
+      color:black;
   }
   .nav_bar,
   .search_bar,
