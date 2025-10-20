@@ -1,3 +1,118 @@
+.state-header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.header-left button.go-back-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-left button.go-back-btn:hover {
+    background-color: #d32f2f;
+}
+
+.header-center h1 {
+    font-size: 22px;
+    text-align: center;
+    color: #333;
+    margin: 5px 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right img.logo_home {
+    height: 40px;
+    width: auto;
+}
+
+.header-right .indivista-text {
+    font-weight: bold;
+    color: #f44336;
+    font-size: 18px;
+}
+
+.header-right a.review-icon-link img {
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.header-right a.review-icon-link img:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 900px) {
+    .header-content {
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .header-left,
+    .header-right {
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+        margin: 5px 0;
+    }
+    .header-center h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-left button.go-back-btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .header-right .indivista-text {
+        font-size: 16px;
+    }
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #555;
+    margin: 10px 0;
+}
+
+footer .copyright {
+    margin-top: 5px;
+}
+@media (max-width: 600px) {
+    footer {
+        font-size: 13px;
+        padding: 12px 10px;
+    }
+}
 
 p{
   font-family:Poppins, sans-serif;
