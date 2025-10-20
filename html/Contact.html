@@ -120,7 +120,13 @@
             © 2023 www.indivista.com. All rights reserved.
         </div>
     </footer>
-
+<script>
+document.querySelectorAll('.mobile_link').forEach(link => {
+  link.addEventListener('click', () => {
+    window.location.href = link.dataset.link;
+  });
+});
+</script>
 
 </body>
 </html>
